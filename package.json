@@ -1,0 +1,25 @@
+{
+  "name": "taiwlin-css",
+  "version": "1.0.0",
+  "description": "this is my first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhageshwar111/taiwlin-css.git"
+  },
+  "author": "krishna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhageshwar111/taiwlin-css/issues"
+  },
+  "homepage": "https://github.com/Bhageshwar111/taiwlin-css#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  }
+}
